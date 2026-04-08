@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/yashv/OneDrive/Desktop/Work/Siddhart/siddharth_pharmacy/app/api -type f -name \"*.ts\" -exec basename {})",
+      "Bash(npx next:*)"
+    ]
+  }
+}
