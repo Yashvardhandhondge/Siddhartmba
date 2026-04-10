@@ -24,11 +24,11 @@ const slides = [
   },
   {
     id: 3,
-    title: "95% Placement Record",
-    subtitle: "50+ Top Recruiters Trust SIMS",
-    description: "Join the league of 500+ successful alumni placed at India's leading corporations.",
-    cta: "View Placements",
-    link: "/placements",
+    title: "Modern Campus & Facilities",
+    subtitle: "Smart Classrooms · Computer Labs · Library",
+    description: "Learn in a thoughtfully designed environment built to support hands-on, industry-oriented MBA education.",
+    cta: "Explore Facilities",
+    link: "/facilities",
   },
 ]
 

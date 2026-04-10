@@ -67,7 +67,6 @@ export default function Footer() {
                 { label: "About Us", href: "/about" },
                 { label: "MBA Program", href: "/academics" },
                 { label: "Admissions", href: "/academics/admission" },
-                { label: "Placements", href: "/placements" },
                 { label: "Research & Events", href: "/research-events" },
                 { label: "Contact Us", href: "/contact" },
               ].map((link) => (

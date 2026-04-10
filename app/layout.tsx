@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Siddharth Institute of Management Science"
   },
   description: "Siddharth Institute of Management Science (SIMS) offers a 2-year full-time MBA program affiliated to Dr. Babasaheb Ambedkar Marathwada University, Chhatrapati Sambhajinagar. AICTE Approved.",
-  keywords: "MBA, management, business administration, SIMS, Siddharth Institute, Chhatrapati Sambhajinagar, Aurangabad, Dr BAMU, AICTE, MBA college, placement, management education",
+  keywords: "MBA, management, business administration, SIMS, Siddharth Institute, Chhatrapati Sambhajinagar, Aurangabad, Dr BAMU, AICTE, MBA college, management education",
   openGraph: {
     title: "Siddharth Institute of Management Science | SIMS",
     description: "Shape Tomorrow's Leaders — Premier MBA education affiliated to Dr. Babasaheb Ambedkar Marathwada University",

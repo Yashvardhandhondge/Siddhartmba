@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ChevronRight, BarChart3, Users, TrendingUp, Settings, GraduationCap, Clock, IndianRupee, FileText } from "lucide-react"
+import { ChevronRight, BarChart3, Users, Settings, GraduationCap, Clock, IndianRupee, FileText, ShieldCheck } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -92,7 +92,7 @@ export default function AcademicsPage() {
               {[
                 { icon: GraduationCap, label: "Degree", value: "MBA" },
                 { icon: Clock, label: "Duration", value: "2 Years (Full-time)" },
-                { icon: TrendingUp, label: "Placement Rate", value: "95%" },
+                { icon: ShieldCheck, label: "Approval", value: "AICTE" },
                 { icon: Users, label: "Specializations", value: "4 Tracks" },
               ].map((item, i) => (
                 <Card key={i} className="border-gold-100 dark:border-navy-400 card-hover">

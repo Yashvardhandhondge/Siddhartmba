@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { GraduationCap, Briefcase, Globe, BookOpen, ArrowRight } from "lucide-react"
+import { GraduationCap, ShieldCheck, Globe, BookOpen, ArrowRight } from "lucide-react"
 
 const highlights = [
   {
@@ -12,10 +12,10 @@ const highlights = [
     color: "from-navy-500 to-[#1a2d4a]",
   },
   {
-    icon: Briefcase,
-    title: "Placements",
-    description: "95% placement record with 50+ top recruiters including TCS, Infosys, HDFC, Deloitte, and more.",
-    link: "/placements",
+    icon: ShieldCheck,
+    title: "AICTE Approved",
+    description: "AICTE-approved MBA program affiliated to Dr. Babasaheb Ambedkar Marathwada University, Chhatrapati Sambhajinagar.",
+    link: "/about",
     color: "from-gold-700 to-gold-600",
   },
   {

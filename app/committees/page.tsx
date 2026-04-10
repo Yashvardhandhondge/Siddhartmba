@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Committees",
-  description: "Institute committees at Siddharth Institute of Management Science — Placement Cell, Grievance, Anti-Ragging, and more.",
+  description: "Institute committees at Siddharth Institute of Management Science — Grievance, Anti-Ragging, Anti-Discrimination, and more.",
 }
 
 async function getCommittees() {

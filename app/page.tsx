@@ -4,8 +4,6 @@ import Banner from "@/components/Banner/Banner"
 import InstituteHighlights from "@/components/home/institute-highlights"
 import WhyChooseUs from "@/components/home/why-choose-us"
 import StatsBar from "@/components/home/stats-bar"
-import Recruiters from "@/components/home/recruiters"
-import Testimonials from "@/components/home/testimonials"
 import CallToAction from "@/components/home/call-to-action"
 import { headers } from "next/headers"
 
@@ -42,8 +40,6 @@ export default async function Home() {
       {banners && banners.length > 0 && <Banner banners={banners} />}
       <InstituteHighlights />
       <WhyChooseUs />
-      <Recruiters />
-      <Testimonials />
       <CallToAction />
     </div>
   )

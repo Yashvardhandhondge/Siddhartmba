@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "Explore campus life, events, placements, guest lectures, and sports moments at Siddharth Institute of Management Science.",
+  description: "Explore campus life, events, guest lectures, and sports moments at Siddharth Institute of Management Science.",
 }
 
 export default function GalleryPage({ searchParams }: { searchParams: { category?: string } }) {

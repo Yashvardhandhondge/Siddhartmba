@@ -13,7 +13,6 @@ import {
   ChevronDown,
   Home,
   User,
-  Briefcase,
   MessageSquare,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
@@ -130,15 +129,6 @@ export function AdminSidebar() {
                 <Link href="/admin/dashboard/faculty">
                   <Users className="h-5 w-5" />
                   <span>Faculty</span>
-                </Link>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-
-            <SidebarMenuItem>
-              <SidebarMenuButton asChild isActive={pathname.includes("/admin/dashboard/placements")}>
-                <Link href="/admin/dashboard/placements">
-                  <Briefcase className="h-5 w-5" />
-                  <span>Placements</span>
                 </Link>
               </SidebarMenuButton>
             </SidebarMenuItem>

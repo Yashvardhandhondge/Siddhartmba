@@ -6,11 +6,9 @@ const reasons = [
   "AICTE-approved MBA program with industry-relevant curriculum",
   "Affiliated to Dr. Babasaheb Ambedkar Marathwada University",
   "Experienced faculty with corporate and academic expertise",
-  "95% placement record with top-tier recruiters",
   "Specializations in Marketing, Finance, HR & Operations",
   "State-of-the-art smart classrooms and computer labs",
   "Regular industry visits, guest lectures, and workshops",
-  "Strong alumni network across leading corporations",
 ]
 
 export default function WhyChooseUs() {

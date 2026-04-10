@@ -33,7 +33,7 @@ export function AboutTabs({ about, directors, leadership, section }: AboutTabsPr
                   SIMS offers a 2-year full-time MBA program with specializations in Marketing, Finance, Human Resource Management, and Operations Management. Our curriculum is designed to meet industry standards and prepare students for leadership roles in the corporate world.
                 </p>
                 <p>
-                  With state-of-the-art facilities, experienced faculty, and a strong placement record, SIMS is committed to shaping competent and ethical business professionals who contribute meaningfully to the economy and society.
+                  With modern facilities and experienced faculty, SIMS is committed to shaping competent and ethical business professionals who contribute meaningfully to the economy and society.
                 </p>
               </div>
             )}
@@ -53,11 +53,8 @@ export function AboutTabs({ about, directors, leadership, section }: AboutTabsPr
               <li className="flex justify-between border-b border-navy-400 pb-2">
                 <span>Approval</span><span className="text-white font-medium">AICTE, New Delhi</span>
               </li>
-              <li className="flex justify-between border-b border-navy-400 pb-2">
-                <span>Specializations</span><span className="text-white font-medium">4</span>
-              </li>
               <li className="flex justify-between">
-                <span>Placement Rate</span><span className="text-gold-400 font-bold">95%</span>
+                <span>Specializations</span><span className="text-white font-medium">4</span>
               </li>
             </ul>
           </div>
@@ -138,7 +135,7 @@ export function AboutTabs({ about, directors, leadership, section }: AboutTabsPr
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-gold-500 mt-2 flex-shrink-0" />
-                  Establish strong corporate partnerships for placement excellence
+                  Build industry partnerships and corporate engagement opportunities
                 </li>
               </ul>
             )}
